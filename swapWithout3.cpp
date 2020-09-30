@@ -25,3 +25,9 @@ cout<<"after swap:"<<" "<<"a:"<<a<<" "<<"b:"<<b<<endl;
 
 return 0;
 }
+
+
+// main focus is something else'
+*p2=*p1-*p2;
+*p1=*p1-*p2;
+// here are the changes done
